@@ -1,0 +1,23 @@
+{
+  "name": "whoswho",
+  "version": "1.0.0",
+  "description": "",
+  "main": "messages/index.js",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "botbuilder-azure": "3.0.2",
+    "jimp": "^0.2.27",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git push": "git push origin master",
+    "git pull": "git pull"
+  },
+  "devDependencies": {
+    "restify": "^4.3.0"
+  },
+  "author": "Olivier",
+  "license": "ISC"
+}
+  

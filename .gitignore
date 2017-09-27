@@ -1,0 +1,7 @@
+**/*/node_modules/
+images/
+typings/
+node_modules/
+*.js.map
+npm-debug.log
+.vscode
