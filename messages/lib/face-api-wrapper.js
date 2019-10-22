@@ -12,7 +12,7 @@ let https = require("https");
 function FaceApiWrapper(apiKey)
 {
     this.options = {};
-    this.options.hostname = "westus.api.cognitive.microsoft.com";
+    this.options.hostname = process.env.FACEAPI_ENDPOINT;
     this.options.port = 443;
     this.options.path = "/face/v1.0";
     this.options.headers =

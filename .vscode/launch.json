@@ -9,7 +9,8 @@
             "cwd": "${workspaceRoot}",
             "env": {
                 "NODE_ENV": "dev",
-                "FACEAPI_KEY": ""
+                "FACEAPI_KEY": "",
+                "FACEAPI_ENDPOINT": ""
             }
         }
     ]
